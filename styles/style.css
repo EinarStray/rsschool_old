@@ -1,0 +1,84 @@
+  html {
+  scroll-behavior: smooth;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+      background-color: 	#eeecd6;
+  }
+
+  .header,
+  footer {
+      background-color: #a8b0b4;
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  .wrapper {
+    width: 40%;
+    height: 80%;
+    margin: auto auto;
+    padding: 10px 20px;
+    word-wrap: break-word;
+    box-shadow: 0 0 30px rgba(166, 167, 123, 0.7);   
+    border-radius: 20px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .user_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+  }
+
+  .user_logo {
+    width: 125px;
+    height: auto;
+  }
+
+  .hr-line {
+    width: 50%;
+    height: 5px;
+    border-top: 3px solid #8f9fa7;
+    margin: 50px auto;
+    padding: 0;
+    border: none;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .rss_logo {
+    width: 160px;
+    height: auto;
+  }
+
+  .github_logo {
+    width: 70px;
+    height: auto;
+    text-align: center;
+  }
+
+  footer,
+  .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
